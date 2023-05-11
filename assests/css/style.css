@@ -242,3 +242,31 @@ img {
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 20px;
     box-shadow: rgba(0, 0, 0, 0.01)0px 0px 20px;
 }
+
+/* home css */
+#home{
+    min-height: 900px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) url(../images/bg.png) no-repeat scroll left center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#home .home_text h2{
+    font-size: 3.938rem;
+    font-weight: 700;
+    line-height: 4.938rem;
+    color: var(--text-white);
+    padding: 1.063rem 0;
+}
+#home .home_text p{
+    font-size: 1rem;
+    color: var(--text-white);
+    padding: 1.063rem 0;
+}
+#home .home-download-btn{
+    display: flex;
+    align-items: center;
+}
