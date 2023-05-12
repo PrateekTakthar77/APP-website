@@ -269,4 +269,29 @@ img {
 #home .home-download-btn{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#home .home-download-btn .btn{
+    padding: 1.5rem 3rem;
+    margin-left: 1.5rem;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .home-download-btn .btn:first-child{
+    margin-left: 0;
+}
+#home .home-download-btn .btn:hover{
+    transform: translateY(-0.311rem);
+    -webkit-transition:all .5s ease-out;
+    -moz-transition:all .5s ease-out;
+    -o-transition:all .5s ease-out;
+    transition:all .5s ease-out;
+}
+#home .home-download-btn span{
+    font-size: 1.688rem;
+    margin-right: 0.625rem;
 }
