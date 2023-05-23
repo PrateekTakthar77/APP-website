@@ -301,3 +301,14 @@ img {
     text-align: right;
     transform: rotate(-345deg);
 }
+.home-image img{
+    animation: float 3s linear infinite;
+}
+@keyframes float{
+    0%,100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
