@@ -15,8 +15,7 @@
 13 scroll top 
  */
 /* web fonts */
-@import url('https://fonts.googleapis.com/css?family=poppins:300,400,500,600,700&amp;display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 /* global variable */
 * {
     margin: 0;
@@ -294,4 +293,11 @@ img {
 #home .home-download-btn span{
     font-size: 1.688rem;
     margin-right: 0.625rem;
+}
+.home-download-btn .btn{
+    border: 2px solid var(--bg-white);
+}
+.home-image{
+    text-align: right;
+    transform: rotate(-345deg);
 }
