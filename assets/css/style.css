@@ -181,7 +181,8 @@ img {
     z-index: 999;
     -webkit-transition: .3s;
     transition: .3s;
-    background: transparent;
+    background: var(--bg-light-pink);
+    /* background-image: var(--bg-gradient); */
 }
 
 .navbar .navbar-nav .nav-link {
